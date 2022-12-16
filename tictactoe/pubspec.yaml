@@ -78,8 +78,9 @@ flutter:
   fonts:
     - family: Aquire
       fonts:
-        - asset: assets/
-  #       - asset: fonts/Schyler-Italic.ttf
+        - asset: assets/Aquire-BW0ox.otf
+        - asset: assets/AquireBold-8Ma60.otf
+        - asset: assets/AquireLight-YzE0o.otf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
