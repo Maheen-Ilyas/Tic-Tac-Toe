@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tictactoe/colors.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -31,6 +30,16 @@ class _GameState extends State<Game> {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: MainColors.backgroundColor,
+      body: SafeArea(
+          child: Center(
+        child: Text(
+          "Tic Tac Toe",
+          style: TextStyle(
+              fontFamily: "Aquire",
+              color: MainColors.secondaryColor,
+              fontSize: 30),
+        ),
+      )),
     );
   }
 }
