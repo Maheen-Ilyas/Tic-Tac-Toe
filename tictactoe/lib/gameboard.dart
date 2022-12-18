@@ -1,3 +1,5 @@
+String choice = "X";
+
 class Player {
   static const x = "X";
   static const o = "O";
@@ -10,4 +12,9 @@ class Game {
   List<String>? board;
   static List<String>? initGameBoard() =>
       List.generate(boardCount, (index) => Player.empty);
+}
+
+class Choice {
+  static final x = "X";
+  static final o = "O";
 }
