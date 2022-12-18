@@ -15,6 +15,6 @@ class Game {
 }
 
 class Choice {
-  static final x = "X";
-  static final o = "O";
+  static const x = "X";
+  static const o = "O";
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tictactoe/gamemainscreen.dart';
 import 'package:tictactoe/gamescreen.dart';
 
 void main() {
@@ -11,8 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      routes: {
+        '/gamescreen/' :(context) => const GameScreen(),
+        '/openingscreen/': (context) => const MainScreen(),
+      },
       theme: ThemeData(fontFamily: "Aquire"),
-      home: const GameScreen(),
+      home: const MainScreen(),
     );
   }
 }
